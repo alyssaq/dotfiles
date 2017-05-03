@@ -18,4 +18,7 @@ export VIRTUALENVWRAPPER=/usr/local/bin/virtualenvwrapper.sh
 
 # Golang
 export GOPATH=$HOME/go
-export PATH=$PATH:$GOPATH/bin
+export PATH=$GOPATH/bin:$PATH
+
+# opencv
+export PYTHONPATH=$PYTHONPATH:/usr/local/Cellar/opencv3/3.1.0/lib/python3.5/site-packages

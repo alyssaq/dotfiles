@@ -1,5 +1,5 @@
 # Terminal
-export CDPATH=.:~:~/Documents:~/go/src/gitlab.com/:
+export CDPATH=.:~:~/Documents:~/go/src/github.com/:
 export SHELL=/bin/bash
 export LSCOLORS=ExGxBxDxCxEgEdxbxgxcxd
 export LC_ALL=en_US.UTF-8

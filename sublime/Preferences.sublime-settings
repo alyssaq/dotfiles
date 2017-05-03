@@ -1,0 +1,20 @@
+{
+  "default_encoding": "UTF-8",
+  "default_line_ending": "unix",
+  "detect_indentation": false,
+  "draw_white_space": "all",
+  "ensure_newline_at_eof_on_save": false,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+  "font_face": "Monaco",
+  "font_size": 12,
+  "highlight_modified_tabs": true,
+  "hot_exit": false,
+  "match_brackets": true,
+  "match_brackets_angle": true,
+	"tab_size": 2,
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_spaces_on_save": true
+}

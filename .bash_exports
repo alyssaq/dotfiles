@@ -1,0 +1,21 @@
+# Terminal
+export CDPATH=.:~:~/Documents:~/go/src/gitlab.com/:
+export SHELL=/bin/bash
+export LSCOLORS=ExGxBxDxCxEgEdxbxgxcxd
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
+export HISTSIZE=1000000
+export HISTFILESIZE=1000000000
+export HISTIGNORE="&:ls:exit"
+export LC_CTYPE=C
+export LANG=C
+export GREP_OPTIONS=--color=auto
+export GIT_EDITOR="vim"
+
+# Virtualenvwrapper
+export WORKON_HOME=$HOME/.virtualenvs
+export VIRTUALENVWRAPPER=/usr/local/bin/virtualenvwrapper.sh
+
+# Golang
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin

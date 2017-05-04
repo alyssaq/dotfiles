@@ -29,6 +29,7 @@
   # Show the diff between the latest commit and the current state
   d = !"git diff-index --quiet HEAD -- || clear; git --no-pager diff --patch-with-stat"
   ls = ls-files
+  b = branch
   co = checkout
   st = status
   ca = commit --amend

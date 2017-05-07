@@ -1,4 +1,4 @@
-export PATH=$HOME/Documents/stuff/dotfiles/scripts:$PATH
+export PATH=$PATH:$HOME/Documents/stuff/dotfiles/scripts
 
 # Git completion
 if [ -e .git-completion.bash ]; then
@@ -16,16 +16,16 @@ if [ -f $(brew --prefix)/etc/bash_completion ]; then
   . $(brew --prefix)/etc/bash_completion
 fi
 
-# sudo -H pip install virtualenv
-# sudo -H pip install virtualenvwrapper
-if [ -e /usr/local/bin/virtualenvwrapper.sh ]; then
-  source /usr/local/bin/virtualenvwrapper.sh
-fi
 if [ -e ~/.bash_exports ]; then
   source ~/.bash_exports
 fi
 if [ -e ~/.bash_alias ]; then
   source ~/.bash_alias
+fi
+# sudo -H pip install virtualenv
+# sudo -H pip install virtualenvwrapper
+if [ -e /usr/local/bin/virtualenvwrapper.sh ]; then
+  source /usr/local/bin/virtualenvwrapper.sh
 fi
 if [ -e bash_completion_tmux.sh ]; then
   source ./bash_completion_tmux.sh

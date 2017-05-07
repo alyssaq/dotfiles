@@ -14,7 +14,7 @@ export GIT_EDITOR="vim"
 
 # Virtualenvwrapper
 export WORKON_HOME=$HOME/.virtualenvs
-export VIRTUALENVWRAPPER=/usr/local/bin/virtualenvwrapper.sh
+export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3.6
 
 # Golang
 export GOPATH=$HOME/go

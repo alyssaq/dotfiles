@@ -1,5 +1,6 @@
 alias ls="ls -hFG"
 alias ll="ls -lAhBG"
 alias pyserver="python -m SimpleHTTPServer 2000"
+alias py3server="python3 -m http.server 2000"
 alias grep='grep --color=auto'
 alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"

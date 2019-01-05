@@ -14,11 +14,11 @@ export GIT_EDITOR="vim"
 
 # Virtualenvwrapper
 export WORKON_HOME=$HOME/.virtualenvs
-export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3.6
+export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3
 
 # Golang
 export GOPATH=$HOME/go
 export PATH=$GOPATH/bin:$PATH
 
 # opencv
-export PYTHONPATH=$PYTHONPATH:/usr/local/Cellar/opencv3/3.2.0/lib/python3.6/site-packages
+export PYTHONPATH=/usr/local/Cellar/opencv/3.4.1_5/lib/python3.6/site-packages:$PYTHONPATH
